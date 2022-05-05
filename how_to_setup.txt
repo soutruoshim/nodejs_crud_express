@@ -1,0 +1,7 @@
+mkdir crud
+cd crud
+npm install -g express-generator
+npx express --view=ejs
+npm install
+npm install mysql
+npm install connect-flash express express-session --save
